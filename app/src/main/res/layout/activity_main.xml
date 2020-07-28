@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="6"
+    android:rowCount="3"
+    android:columnCount="2">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardApple"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/apple"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="Apple"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBanana"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/banana"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="Banana"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLemon"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lemon"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="Lemon"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMango"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mango"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="Mango"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPawpaw"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pawpaw"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="PawPaw"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCucumber"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cucumber"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:text="Cucumber"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</GridLayout>
+
+
+
+</LinearLayout>
